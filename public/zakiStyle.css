@@ -1,0 +1,108 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color:rgb(234,234,234);
+    align-items: center;
+    
+    
+}
+
+span {
+    margin-top: 2em; /* Adjust to your liking */
+    display: block; /* Could also use inline-block */
+  }
+
+.zakiContainer {
+    text-align: center;
+}
+
+.zakiXenteurco {
+    
+    color: rgb(10, 0, 0);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.5;
+    text-overflow: ellipsis;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'DM Sans', sans-serif;
+    color: rgb(10, 0, 0);
+    text-decoration: none;
+    font-size:20px;
+    letter-spacing:2px;
+}
+
+.zakiBoosterurmood {
+    padding: 0px;
+    margin: 0px;
+    color: rgb(10, 0, 0);
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: 'DM Sans', sans-serif;
+    letter-spacing:1px;
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.zakiProfilePict {
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+    /* margin-left: 745px;
+    margin-top: 100px; */
+    max-width:fit-content;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    margin-bottom: 15px;
+    
+}
+
+.zakiProfilePict img {
+    height: 100%;
+}
+
+.zakiLinktreebutton { 
+    text-align: center;
+    
+}
+
+.zakiLinktreebutton ul {
+    display: inline-block;
+}
+
+.zakiLinktreebutton li {
+    margin-bottom: 16px;
+    padding: 16px 44px;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 30px;
+    width: 600px;
+    height: 25px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:rgb(136, 136, 136);
+    text-decoration:none ;
+    z-index: 0;
+    overflow: hidden;
+    border: 2px solid rgb(255, 255, 255);
+    margin-right: 35px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 8px 0px;
+}
+
+.zakiLinktreebutton li>a {
+    text-decoration: none;
+    color: initial;
+    background: none;
+}
+
+.zakiLinktreebutton :hover {
+   
+}
