@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Lima Bagian</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="header-container">
+            <h1 class="GSWpala">Golden State Warriors</h1>
+            <h2 class="sinNum">Strength in Numbers</h2>
+        </div>
+    </header>
+
+    <nav>
+        <div class="logo logo-left">
+            <img src="asset/Golden_State_Warriors_logo.png">
+        </div>
+        <ul>
+            <li><a href="#content1">Our Team</a></li>
+            <li><a href="#content2">Match Schedule</a></li>
+            <li><a href="#content3">Social Media</a></li>
+        </ul>
+        <div class="logo logo-right">
+            <img src="asset/Golden_State_Warriors_logo.png">
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <div class="content">
+            <article id="content1">
+                <h2>Our Team</h2>
+                <div class="player-container">
+                    <div class="player">
+                        <img src="asset/GP2.avif" alt="Player 1">
+                        <h3>Garry Payton II</h3>
+                        <p>Guard</p>
+                    </div>
+                    <div class="player">
+                        <img src="asset/kuminga.avif" alt="Player 2">
+                        <h3>Jonathan Kuminga</h3>
+                        <p>Forward</p>
+                    </div>
+                    <div class="player">
+                        <img src="asset/cp3.avif" alt="Player 3">
+                        <h3>Chris Paul</h3>
+                        <p>Guard</p>
+                    </div>
+                    <div class="player">
+                        <img src="asset/moody.avif" alt="Player 4">
+                        <h3>Moses Moody</h3>
+                        <p>Guard</p>
+                    </div>
+                    <div class="player">
+                        <img src="asset/looney.avif" alt="Player 5">
+                        <h3>Kevon Looney</h3>
+                        <p>Center</p>
+                    </div>
+                    <div class="player">
+                        <img src="asset/klay.avif" alt="Player 6">
+                        <h3>Klay Thompson</h3>
+                        <p>Guard</p>
+                    </div>
+                    <div class="player">
+                        <img src="asset/wiggins.avif" alt="Player 7">
+                        <h3>Andrew Wiggins</h3>
+                        <p>Forward</p>
+                    </div>
+                    <div class="player">
+                        <img src="asset/draymond.avif" alt="Player 8">
+                        <h3>Draymond Green</h3>
+                        <p>Forward</p>
+                    </div>
+                    <div class="player">
+                        <img src="asset/steph.avif" alt="Player 9">
+                        <h3>Steph Curry</h3>
+                        <p>Guard</p>
+                    </div>
+                    
+                </div>
+            </article>
+
+
+
+
+            <article id="content2">
+                <h2>Warriors Schedule</h2>
+
+                <div class="schedule-container">
+                    <div class="schedule-wrapper">
+                        <div class="schedule-item">
+                            <div class="team-logo">
+                                <img src="asset/Golden_State_Warriors_logo.png" alt="Warriors Logo">
+                            </div>
+                            <div class="game-details">
+                                <h3>Game 1</h3>
+                                <p>Date: October 30, 2023</p>
+                                <p>Opponent: Los Angeles Lakers</p>
+                                <p>Time: 7:00 PM PST</p>
+                            </div>
+                            <div class="opponent-logo">
+                                <img src="asset/lakers_logo.png" alt="Lakers Logo">
+                            </div>
+                        </div>
+
+                        <div class="schedule-item">
+                            <div class="team-logo">
+                                <img src="asset/Golden_State_Warriors_logo.png" alt="Warriors Logo">
+                            </div>
+                            <div class="game-details">
+                                <h3>Game 2</h3>
+                                <p>Date: November 5, 2023</p>
+                                <p>Opponent: Houston Rockets</p>
+                                <p>Time: 8:30 PM PST</p>
+                            </div>
+                            <div class="opponent-logo">
+                                <img src="asset/Houston_Rockets_logo.png" alt="Rockets Logo">
+                            </div>
+                        </div>
+                        
+
+                        <div class="schedule-item">
+                            <div class="team-logo">
+                                <img src="asset/Golden_State_Warriors_logo.png" alt="Warriors Logo">
+                            </div>
+                            <div class="game-details">
+                                <h3>Game 3</h3>
+                                <p>Date: October 30, 2023</p>
+                                <p>Opponent: Los Angeles Lakers</p>
+                                <p>Time: 7:00 PM PST</p>
+                            </div>
+                            <div class="opponent-logo">
+                                <img src="asset/Milwaukee_Bucks_logo.png" alt="Lakers Logo">
+                            </div>
+                        </div>
+
+
+                        <div class="schedule-item">
+                            <div class="team-logo">
+                                <img src="asset/Golden_State_Warriors_logo.png" alt="Warriors Logo">
+                            </div>
+                            <div class="game-details">
+                                <h3>Game 4</h3>
+                                <p>Date: November 5, 2023</p>
+                                <p>Opponent: Los Angeles Lakers</p>
+                                <p>Time: 7:00 PM PST</p>
+                            </div>
+                            <div class="opponent-logo">
+                                <img src="asset/lakers_logo.png" alt="Lakers Logo">
+                            </div>
+                        </div>
+
+                        
+                    </div>
+                </div>
+
+                <div class="scroll-buttons">
+                    <button class="scroll-left" onclick="scrollSchedule(-1)">&#8249;</button>
+                    <button class="scroll-right" onclick="scrollSchedule(1)">&#8250;</button>
+                </div>
+
+                <script>
+                    document.addEventListener("DOMContentLoaded", function () {
+                        var scheduleWrapper = document.querySelector(".schedule-container");
+                        var scrollAmount = 400; // Adjust the scroll amount as needed
+
+                        function scrollSchedule(direction) {
+                            scheduleWrapper.scrollLeft += direction * scrollAmount;
+                        }
+
+                        document.querySelector(".scroll-left").addEventListener("click", function () {
+                            scrollSchedule(-1);
+                        });
+
+                        document.querySelector(".scroll-right").addEventListener("click", function () {
+                            scrollSchedule(1);
+                        });
+                    });
+                </script>
+            </article>
+            
+
+
+
+            <aside class="social-sidebar" id="content3">
+                <h2>Follow Us</h2>
+                <ul>
+                    <!-- Move these styles to style.css -->
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-google"></a></li>
+                    <li><a href="#" class="fa fa-youtube"></a></li>
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                </ul>
+            </aside>
+
+            <footer>
+                <h2>Contact Us</h2>
+                    <div class="container">
+                        <form action="/action_page.php">
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" pattern="[A-Za-z]+" title="Only letters are allowed" placeholder="Your name.." required>
+
+
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="Your email.." required>
+
+                            <label for="country">Country</label>
+                            <select id="country" name="country">
+                            <option value="australia">Indonesia</option>
+                            <option value="canada">United Kingdom</option>
+                            <option value="usa">USA</option>
+                            </select>
+
+                            <label for="subject">Subject</label>
+                            <textarea id="subject" name="subject" placeholder="Write a message" style="height:200px"></textarea>
+
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+            </footer>
+
+        </div>
+    </div>
+
+    <!-- Move these scripts to the end of the body -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.min.js"></script>
+    
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        var form = document.querySelector("#contactForm");
+
+        form.addEventListener("submit", function (event) {
+            var fname = form.elements["firstname"].value;
+            var email = form.elements["email"].value;
+
+            if (!/^[A-Za-z]+$/.test(fname)) {
+                alert("Please enter a valid name with only letters.");
+                event.preventDefault();
+            }
+
+            if (!isValidEmail(email)) {
+                alert("Please enter a valid email address.");
+                event.preventDefault();
+            }
+        });
+
+        function isValidEmail(email) {
+            // Using a simple check for the presence of "@" in the email
+            return email.includes("@");
+        }
+    });
+</script>
+</body>
+
+</html>

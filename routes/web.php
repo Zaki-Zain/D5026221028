@@ -49,3 +49,14 @@ Route::get('/pegawai/hapus/{id}','App\Http\Controllers\PegawaiController@hapus')
 Route::get('/pegawai/cari','App\Http\Controllers\PegawaiController@cari');
 
 Route::get('/pegawai/view/{id}','App\Http\Controllers\PegawaiController@view');
+
+
+
+//EAS TAHUN LALU BOY
+Route::get('/nilaikuliah','App\Http\Controllers\NilaiController@index2');
+Route::get('/nilaikuliah/tambah2','App\Http\Controllers\NilaiController@tambah2');
+Route::post('/nilaikuliah/store2','App\Http\Controllers\NilaiController@store2');
+
+Route::get('/sepedamotor','App\Http\Controllers\SepedamotorController@index3');
+Route::get('/sepedamotor/tambah3','App\Http\Controllers\SepedamotorController@tambah3');
+Route::post('/sepedamotor/store3','App\Http\Controllers\SepedamotorController@store3');

@@ -1,0 +1,24 @@
+h1 {
+    color: rgb(169, 130, 30);
+}
+
+p {
+    color: rgb(85, 239, 188);
+    text-align: justify;
+}
+
+body {
+    background-color:cornsilk;
+}
+
+.ratakanan {
+    text-align: center;
+    color: rgb(255, 0, 195);
+    font-weight: bold;
+}
+
+.kotaku1 {
+    border-style: solid;
+    border-color: indigo;
+    
+}
