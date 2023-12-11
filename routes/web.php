@@ -60,3 +60,8 @@ Route::post('/nilaikuliah/store2','App\Http\Controllers\NilaiController@store2')
 Route::get('/sepedamotor','App\Http\Controllers\SepedamotorController@index3');
 Route::get('/sepedamotor/tambah3','App\Http\Controllers\SepedamotorController@tambah3');
 Route::post('/sepedamotor/store3','App\Http\Controllers\SepedamotorController@store3');
+
+
+Route::get('/kategori','App\Http\Controllers\KategoriController@index4');
+Route::post('/submitKategori','App\Http\Controllers\KategoriController@submitKategori');
+

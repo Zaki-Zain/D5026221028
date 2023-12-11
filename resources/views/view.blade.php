@@ -1,7 +1,7 @@
-@extends('master2')
+@extends('master5')
 
 @section('konten')
-    <h2 class="text-center">Profil Pegawai</h2><br>
+    <h2 class="text-center">Kategori</h2><br>
 
     @foreach($pegawai as $p)
         <div class="container">
@@ -15,10 +15,8 @@
                         </div>
                         <div class="card">
                           <div class="card-body d-flex flex-column justify-content-center">
-                              <p class="card-text">Nama: {{ $p->pegawai_nama }}</p>
-                              <p class="card-text">Jabatan: {{ $p->pegawai_jabatan }}</p>
-                              <p class="card-text">Umur: {{ $p->pegawai_umur }}</p>
-                              <p class="card-text">Alamat: {{ $p->pegawai_alamat }}</p>
+                              <p class="card-text">ID {{ $p->id }}</p>
+                              <p class="card-text">Nama {{ $p->nama }}</p>
                               <div class="text-center">
                                   <a href="/pegawai" class="btn btn-primary">Kembali</a>
                               </div>
